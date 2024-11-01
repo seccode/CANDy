@@ -2,10 +2,10 @@ import zstandard as zstd
 
 def compress(s,comp):
     c={
-        "A":"2",
-        "C":"3",
-        "G":"1",
-        "T":"4"
+        "A":chr(2),
+        "C":chr(3),
+        "G":chr(1),
+        "T":chr(4)
     }
     m=[c[_s] for _s in s]
     return comp.compress("".join(m).encode())
