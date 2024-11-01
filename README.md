@@ -1,4 +1,4 @@
-# Dnac
+# CANDy
 DNA compression method
 
 # Method
