@@ -1,6 +1,8 @@
 # CANDy
 DNA compression method
 
+![CANDy](candy.webp)
+
 # Method
 Replace each DNA char with chars closer together in ascii space. For a string "abd", the distance of the string is (ord(b)-ord(a)) + (ord(d)-ord(b)), so by choosing replacement chars that minimize the distance, we improve compression.
 
